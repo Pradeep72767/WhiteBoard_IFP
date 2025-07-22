@@ -98,6 +98,12 @@ com.example.whiteboard/
 
 ## 📷 Screenshots
 
+![Image](https://github.com/user-attachments/assets/8c69ed66-793e-4844-8186-dbc71e0931ee)
+![Image](https://github.com/user-attachments/assets/d1509469-1e83-48ab-8a57-871acf9f00ca)
+![Image](https://github.com/user-attachments/assets/415f0e46-c20a-4df5-b949-988467c1582d)
+![Image](https://github.com/user-attachments/assets/d165891e-80e6-414a-bd71-0d851dde623b)
+![Image](https://github.com/user-attachments/assets/6b21ea5d-1568-405e-acbc-37a1e7f191ce)
+
 ---
 
 ### 👨‍💻 Author
