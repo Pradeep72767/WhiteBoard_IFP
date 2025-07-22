@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Whiteboard</string>
+    <string name="color">Colors</string>
+    <string name="stroke">Width</string>
+    <string name="text">Text</string>
+    <string name="shapes">Shapes</string>
+    <string name="eraser">Eraser</string>
+    <string name="save">Save</string>
+    <string name="clearall">Clear ALL</string>
+</resources>

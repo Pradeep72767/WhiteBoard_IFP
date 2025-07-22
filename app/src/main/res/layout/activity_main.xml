@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.whiteboard.ui.WhiteboardView
+        android:id="@+id/drawingView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fabLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/fabLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageButton
+            android:id="@+id/coloricon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:background="@drawable/custom_style"
+            android:src="@drawable/pallete"
+            android:contentDescription="@string/color"/>
+
+        <ImageButton
+            android:id="@+id/strokeIcon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:padding="@dimen/padding"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:background="@drawable/custom_style"
+            android:src="@drawable/stroke"
+            android:contentDescription="@string/stroke" />
+
+        <ImageButton
+            android:id="@+id/shapeIcon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:background="@drawable/custom_style"
+            android:src="@drawable/shapes"
+            android:contentDescription="@string/shapes" />
+
+        <ImageButton
+            android:id="@+id/textIcon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:background="@drawable/custom_style"
+            android:contentDescription="@string/text"
+            android:src="@drawable/text" />
+
+        <ImageButton
+            android:id="@+id/eraserIcon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:background="@drawable/custom_style"
+            android:contentDescription="@string/eraser"
+            android:src="@drawable/eraser" />
+
+        <ImageButton
+            android:id="@+id/saveIcon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:background="@drawable/custom_style"
+            android:contentDescription="@string/save"
+            android:src="@drawable/diskette" />
+
+
+        <ImageButton
+            android:id="@+id/saveImageIcon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:background="@drawable/custom_style"
+            android:contentDescription="@string/save"
+            android:src="@drawable/photo" />
+
+
+        <ImageButton
+            android:id="@+id/clearIcon"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:background="@drawable/custom_style"
+            android:contentDescription="@string/clearall"
+            android:src="@drawable/trash" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
